@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url("Fonts/Poppins-ExtraLight.ttf") format(truetype);
+  }
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 2px 7px 12px -3px rgba(0,0,0,0.53);
+    opacity: 70%;
+
+}
+
+
+header img{
+    object-fit: contain;
+    margin-left:20px;
+    width: 150px;
+    height: 10;
+}
+
+header ul{
+    margin-left: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+header li{
+    padding:10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+#logout{
+    background-color: white;
+    color: black;
+    border-radius: 18px;
+}
+
+#logout:hover{
+    transform: scale(1.1);
+}
+
+header li button{
+    border-radius: 20px;
+    border: 1px solid white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 70%;
+}
+
+header li button:hover{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: white;
+}
+
+.bloksamping img{
+    object-fit: contain;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.bloksamping{
+    position: fixed;;
+    margin-top: 1-px;
+    background-color: white;
+    width: 200px;
+    height:700px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+
+}
+
+.bloksamping h3{
+    color: black;
+    font-family:"Poppins-Regular", Helvetica;
+    font-weight: 100;
+    opacity: 70%;
+}
+
+.bloksamping button{
+    font-family:'Poppins';
+    font-weight: bold;
+    padding: 25px;
+    margin-bottom: 10px;
+    width: 160px;
+   background-color: white;
+    color: black;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    height:80px;
+    font-size: large;
+    cursor: pointer;
+    opacity: 100%;
+    margin-top: 10px;
+    
+}
+
+.bloksamping input{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 7px;
+    width: 110px;
+    margin-top: 10px;
+}
+
+.bloksamping button:hover{
+    background-color: black;
+    color: white;
+}
+
+#ayam{
+    height: 800px;
+}
+
+.profil{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    opacity: 70%;
+
+}
+
+.konten{
+    background-color:white; 
+    width:1300px;
+    height: 8750px;
+    margin-left: 210px;
+    margin-top: 97px;
+    overflow: scroll;
+    border-radius: 10px;
+}
+
+.konten h4{
+    font-size: 50px;
+    margin-left: 10px;
+   font-family:'Poppins';
+   font-weight: 400;
+    color: white;
+    margin-top:-1px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#cari{
+    padding: 5px;
+    width:50px;
+    height: 33px;
+    font-size: 15px;
+}
+
+.banner h3{
+    font-size: 50px;
+    visibility: hidden;
+}
+
+.banner {
+    text-align: center;
+    background-image: url(Asset/banner1.jpg);
+    background-size: cover;
+    background-position:center;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: 130px;
+    border-radius: 10px;
+    object-fit: contain;
+    height: 300px;
+    box-shadow: 1px 10px 26px -2px rgba(0,0,0,0.71);
+-webkit-box-shadow: 1px 10px 26px -2px rgba(0,0,0,0.71);
+-moz-box-shadow: 1px 10px 26px -2px rgba(0,0,0,0.71);
+}
+
+
+.konten h1{
+    margin-left:150px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size:50px;
+    width:525px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+}
+
+#obelix{
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.jelajah{
+    display: flex;
+}
+
+.konten h2{
+    font-family:'Poppins';
+    margin-left: 825px;
+    margin-top: -25px;
+}
+
